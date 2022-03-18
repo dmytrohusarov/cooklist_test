@@ -30,8 +30,9 @@ python manage.py runserver
 ### Tests
 
 For tests you need to upload test data (`data/100 Creative AI Recipes - cooklist_100_sample_recipes.csv`) through the
-admin panel into the system.
-![](/Users/admin/Desktop/Screenshot 2022-03-18 at 15.00.19.png)
+admin panel into the system.   
+Go to 
+`http://127.0.0.1:8000/admin/core/recipe/` - `Import` - Select file and format (csv)   
 Methods for graphql:
 `http://127.0.0.1:8000/graphql`
 
