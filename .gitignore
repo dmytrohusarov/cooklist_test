@@ -2,4 +2,4 @@ venv/
 *.sqlite3
 templates/
 .idea/
-
+*/__pycache__/*
